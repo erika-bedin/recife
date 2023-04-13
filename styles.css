@@ -15,3 +15,45 @@ section {
     color: darkblue;
     font-size: 20px;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:aqua;
+    background-color: darkgray;
+    font-size: large;
+    font-family: 'DynaPuff', cursive;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    color:blue;
+    background-color: darkgray;
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:blueviolet;
+    background-color: darkgray;
+    flex-direction: row-reverse;
+    font-family: 'DynaPuff', cursive;
+    
+}
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    font-family: 'DynaPuff', cursive;
+}
+.fonte-01{
+    font-family: 'DynaPuff', cursive, sans-serif;
+}
+.fonte-02{
+    font-family: 'Maven Pro', sans-serif;
+}
